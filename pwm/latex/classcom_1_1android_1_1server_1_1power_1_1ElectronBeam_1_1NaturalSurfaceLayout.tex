@@ -1,0 +1,84 @@
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout}{\section{com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout Class Reference}
+\label{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout}\index{com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout@{com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout}}
+}
+
+
+Inheritance diagram for com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a36c9443f02e9afb0e21ac248aec3c04d}{Natural\-Surface\-Layout} (Display\-Manager\-Service display\-Manager, Surface surface)
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a42e7b039790c30ea68acdb8df6bd95a5}{dispose} ()
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a4de66347d52f912fb7878aac9f0c0887}{on\-Display\-Transaction} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Display\-Manager\-Service \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a5b437ab809caf97d241478ce52c6c932}{m\-Display\-Manager}
+\item 
+Surface \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_abb69c08305d023474da59b30206b8fd8}{m\-Surface}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Keeps a surface aligned with the natural orientation of the device. Updates the position and transformation of the matrix whenever the display is rotated. This is a little tricky because the display transaction callback can be invoked on any thread, not necessarily the thread that owns the electron beam. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a36c9443f02e9afb0e21ac248aec3c04d}{\index{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}!Natural\-Surface\-Layout@{Natural\-Surface\-Layout}}
+\index{Natural\-Surface\-Layout@{Natural\-Surface\-Layout}!com::android::server::power::ElectronBeam::NaturalSurfaceLayout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}}
+\subsubsection[{Natural\-Surface\-Layout}]{\setlength{\rightskip}{0pt plus 5cm}com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout.\-Natural\-Surface\-Layout (
+\begin{DoxyParamCaption}
+\item[{Display\-Manager\-Service}]{display\-Manager, }
+\item[{Surface}]{surface}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a36c9443f02e9afb0e21ac248aec3c04d}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a42e7b039790c30ea68acdb8df6bd95a5}{\index{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}!dispose@{dispose}}
+\index{dispose@{dispose}!com::android::server::power::ElectronBeam::NaturalSurfaceLayout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}}
+\subsubsection[{dispose}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout.\-dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a42e7b039790c30ea68acdb8df6bd95a5}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a4de66347d52f912fb7878aac9f0c0887}{\index{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}!on\-Display\-Transaction@{on\-Display\-Transaction}}
+\index{on\-Display\-Transaction@{on\-Display\-Transaction}!com::android::server::power::ElectronBeam::NaturalSurfaceLayout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}}
+\subsubsection[{on\-Display\-Transaction}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout.\-on\-Display\-Transaction (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a4de66347d52f912fb7878aac9f0c0887}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a5b437ab809caf97d241478ce52c6c932}{\index{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}!m\-Display\-Manager@{m\-Display\-Manager}}
+\index{m\-Display\-Manager@{m\-Display\-Manager}!com::android::server::power::ElectronBeam::NaturalSurfaceLayout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}}
+\subsubsection[{m\-Display\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}final Display\-Manager\-Service com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout.\-m\-Display\-Manager\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_a5b437ab809caf97d241478ce52c6c932}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_abb69c08305d023474da59b30206b8fd8}{\index{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}!m\-Surface@{m\-Surface}}
+\index{m\-Surface@{m\-Surface}!com::android::server::power::ElectronBeam::NaturalSurfaceLayout@{com\-::android\-::server\-::power\-::\-Electron\-Beam\-::\-Natural\-Surface\-Layout}}
+\subsubsection[{m\-Surface}]{\setlength{\rightskip}{0pt plus 5cm}Surface com.\-android.\-server.\-power.\-Electron\-Beam.\-Natural\-Surface\-Layout.\-m\-Surface\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ElectronBeam_1_1NaturalSurfaceLayout_abb69c08305d023474da59b30206b8fd8}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ElectronBeam_8java}{Electron\-Beam.\-java}\end{DoxyCompactItemize}

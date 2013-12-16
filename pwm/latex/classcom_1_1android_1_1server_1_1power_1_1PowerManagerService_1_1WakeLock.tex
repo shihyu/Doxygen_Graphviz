@@ -1,0 +1,233 @@
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock}{\section{com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock Class Reference}
+\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock}\index{com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock@{com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock}}
+}
+
+
+Inheritance diagram for com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a241c232476adef32c7a15dda4d5fe263}{Wake\-Lock} (I\-Binder lock, int flags, String tag, Work\-Source work\-Source, int owner\-Uid, int owner\-Pid)
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a8c60494b903319b82ec9a20fe0264793}{binder\-Died} ()
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a0a0f42ce26c356cb49e8065bb01b3f94}{has\-Same\-Properties} (int flags, String tag, Work\-Source work\-Source, int owner\-Uid, int owner\-Pid)
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad0c79c0d084cc471fe37261a61cef6bc}{update\-Properties} (int flags, String tag, Work\-Source work\-Source, int owner\-Uid, int owner\-Pid)
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aa7c1498475258a26184e6172457987ee}{has\-Same\-Work\-Source} (Work\-Source work\-Source)
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ab365b0d41c9079b72a672c8b18dc9246}{update\-Work\-Source} (Work\-Source work\-Source)
+\item 
+String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aab044511660feecadd1e078962656d72}{to\-String} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final I\-Binder \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a76c89eeab17e7fa6c123402c0f16b465}{m\-Lock}
+\item 
+int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ac793472ecf0ccf4a4a092e68665a723d}{m\-Flags}
+\item 
+String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a47ef3e3e27c1fc0713216cd0fc61ffc1}{m\-Tag}
+\item 
+Work\-Source \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a03db7c30d4fd8ea5d43e93da2eeee761}{m\-Work\-Source}
+\item 
+int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ae246d978c568f114317d1b607abd4527}{m\-Owner\-Uid}
+\item 
+int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_af63e9af33d89b05d24584eea695c5e30}{m\-Owner\-Pid}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad5ab92ed7351ac510403884add98d40e}{get\-Lock\-Level\-String} ()
+\item 
+String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a78d8c1ba4c0c04250f0171c2689e04ba}{get\-Lock\-Flags\-String} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a wake lock that has been acquired by an application. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a241c232476adef32c7a15dda4d5fe263}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!Wake\-Lock@{Wake\-Lock}}
+\index{Wake\-Lock@{Wake\-Lock}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{Wake\-Lock}]{\setlength{\rightskip}{0pt plus 5cm}com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-Wake\-Lock (
+\begin{DoxyParamCaption}
+\item[{I\-Binder}]{lock, }
+\item[{int}]{flags, }
+\item[{String}]{tag, }
+\item[{Work\-Source}]{work\-Source, }
+\item[{int}]{owner\-Uid, }
+\item[{int}]{owner\-Pid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a241c232476adef32c7a15dda4d5fe263}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a241c232476adef32c7a15dda4d5fe263_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a8c60494b903319b82ec9a20fe0264793}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!binder\-Died@{binder\-Died}}
+\index{binder\-Died@{binder\-Died}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{binder\-Died}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-binder\-Died (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a8c60494b903319b82ec9a20fe0264793}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a78d8c1ba4c0c04250f0171c2689e04ba}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!get\-Lock\-Flags\-String@{get\-Lock\-Flags\-String}}
+\index{get\-Lock\-Flags\-String@{get\-Lock\-Flags\-String}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{get\-Lock\-Flags\-String}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-get\-Lock\-Flags\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a78d8c1ba4c0c04250f0171c2689e04ba}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad5ab92ed7351ac510403884add98d40e}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!get\-Lock\-Level\-String@{get\-Lock\-Level\-String}}
+\index{get\-Lock\-Level\-String@{get\-Lock\-Level\-String}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{get\-Lock\-Level\-String}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-get\-Lock\-Level\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad5ab92ed7351ac510403884add98d40e}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a0a0f42ce26c356cb49e8065bb01b3f94}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!has\-Same\-Properties@{has\-Same\-Properties}}
+\index{has\-Same\-Properties@{has\-Same\-Properties}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{has\-Same\-Properties}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-has\-Same\-Properties (
+\begin{DoxyParamCaption}
+\item[{int}]{flags, }
+\item[{String}]{tag, }
+\item[{Work\-Source}]{work\-Source, }
+\item[{int}]{owner\-Uid, }
+\item[{int}]{owner\-Pid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a0a0f42ce26c356cb49e8065bb01b3f94}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a0a0f42ce26c356cb49e8065bb01b3f94_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aa7c1498475258a26184e6172457987ee}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!has\-Same\-Work\-Source@{has\-Same\-Work\-Source}}
+\index{has\-Same\-Work\-Source@{has\-Same\-Work\-Source}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{has\-Same\-Work\-Source}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-has\-Same\-Work\-Source (
+\begin{DoxyParamCaption}
+\item[{Work\-Source}]{work\-Source}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aa7c1498475258a26184e6172457987ee}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aab044511660feecadd1e078962656d72}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aab044511660feecadd1e078962656d72}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_aab044511660feecadd1e078962656d72_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad0c79c0d084cc471fe37261a61cef6bc}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!update\-Properties@{update\-Properties}}
+\index{update\-Properties@{update\-Properties}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{update\-Properties}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-update\-Properties (
+\begin{DoxyParamCaption}
+\item[{int}]{flags, }
+\item[{String}]{tag, }
+\item[{Work\-Source}]{work\-Source, }
+\item[{int}]{owner\-Uid, }
+\item[{int}]{owner\-Pid}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad0c79c0d084cc471fe37261a61cef6bc}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ad0c79c0d084cc471fe37261a61cef6bc_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ab365b0d41c9079b72a672c8b18dc9246}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!update\-Work\-Source@{update\-Work\-Source}}
+\index{update\-Work\-Source@{update\-Work\-Source}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{update\-Work\-Source}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-update\-Work\-Source (
+\begin{DoxyParamCaption}
+\item[{Work\-Source}]{work\-Source}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ab365b0d41c9079b72a672c8b18dc9246}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ab365b0d41c9079b72a672c8b18dc9246_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ac793472ecf0ccf4a4a092e68665a723d}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!m\-Flags@{m\-Flags}}
+\index{m\-Flags@{m\-Flags}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{m\-Flags}]{\setlength{\rightskip}{0pt plus 5cm}int com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-m\-Flags}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ac793472ecf0ccf4a4a092e68665a723d}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a76c89eeab17e7fa6c123402c0f16b465}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!m\-Lock@{m\-Lock}}
+\index{m\-Lock@{m\-Lock}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{m\-Lock}]{\setlength{\rightskip}{0pt plus 5cm}final I\-Binder com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-m\-Lock}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a76c89eeab17e7fa6c123402c0f16b465}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_af63e9af33d89b05d24584eea695c5e30}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!m\-Owner\-Pid@{m\-Owner\-Pid}}
+\index{m\-Owner\-Pid@{m\-Owner\-Pid}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{m\-Owner\-Pid}]{\setlength{\rightskip}{0pt plus 5cm}int com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-m\-Owner\-Pid}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_af63e9af33d89b05d24584eea695c5e30}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ae246d978c568f114317d1b607abd4527}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!m\-Owner\-Uid@{m\-Owner\-Uid}}
+\index{m\-Owner\-Uid@{m\-Owner\-Uid}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{m\-Owner\-Uid}]{\setlength{\rightskip}{0pt plus 5cm}int com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-m\-Owner\-Uid}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_ae246d978c568f114317d1b607abd4527}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a47ef3e3e27c1fc0713216cd0fc61ffc1}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!m\-Tag@{m\-Tag}}
+\index{m\-Tag@{m\-Tag}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{m\-Tag}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-m\-Tag}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a47ef3e3e27c1fc0713216cd0fc61ffc1}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a03db7c30d4fd8ea5d43e93da2eeee761}{\index{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}!m\-Work\-Source@{m\-Work\-Source}}
+\index{m\-Work\-Source@{m\-Work\-Source}!com::android::server::power::PowerManagerService::WakeLock@{com\-::android\-::server\-::power\-::\-Power\-Manager\-Service\-::\-Wake\-Lock}}
+\subsubsection[{m\-Work\-Source}]{\setlength{\rightskip}{0pt plus 5cm}Work\-Source com.\-android.\-server.\-power.\-Power\-Manager\-Service.\-Wake\-Lock.\-m\-Work\-Source}}\label{classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock_a03db7c30d4fd8ea5d43e93da2eeee761}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{PowerManagerService_8java}{Power\-Manager\-Service.\-java}\end{DoxyCompactItemize}

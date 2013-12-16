@@ -1,0 +1,95 @@
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator}{\section{com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator Class Reference}
+\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator}\index{com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator@{com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a89a57d2602393b050bea05809ad00544}{set\-State} (boolean on, int backlight)
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a1985eb59872e7334f832b2762c8c07d7}{dump} (Print\-Writer pw)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Object \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a7be03ac416924266902cd7e001eb7044}{m\-Lock} = new Object()
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a5a7f23332c6937ca135a564157892816}{m\-Pending\-On} = \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_aba2a7ba030813ba22a618a61511bfd48}{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}
+\item 
+int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a382abc794aafa7743f1c2cff16f6a4ab}{m\-Pending\-Backlight} = \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_ad07cac64078210d3346fea0041c25cfd}{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a9d38be17b604c637bc9430f55e2f4ba0}{m\-Actual\-On} = \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_aba2a7ba030813ba22a618a61511bfd48}{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}
+\item 
+int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a5e7e40b503507bedbc7808a473ce48f0}{m\-Actual\-Backlight} = \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_ad07cac64078210d3346fea0041c25cfd}{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a76910dedf1065b2880753feecd8c3a09}{m\-Change\-In\-Progress}
+\item 
+int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a0705a954e9dc796e3db0e162ed4b46ca}{m\-Current\-Button\-Value} = \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_ad07cac64078210d3346fea0041c25cfd}{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}
+\item 
+final Runnable \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_af6dd80943227de9a16937b8d8b6f1ad4}{m\-Task}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_aba2a7ba030813ba22a618a61511bfd48}{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N} = false
+\item 
+static final int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_ad07cac64078210d3346fea0041c25cfd}{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T} = -\/1
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Updates the state of the screen and backlight asynchronously on a separate thread. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a1985eb59872e7334f832b2762c8c07d7}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!dump@{dump}}
+\index{dump@{dump}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-dump (
+\begin{DoxyParamCaption}
+\item[{Print\-Writer}]{pw}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a1985eb59872e7334f832b2762c8c07d7}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a89a57d2602393b050bea05809ad00544}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!set\-State@{set\-State}}
+\index{set\-State@{set\-State}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{set\-State}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-set\-State (
+\begin{DoxyParamCaption}
+\item[{boolean}]{on, }
+\item[{int}]{backlight}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a89a57d2602393b050bea05809ad00544}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_ad07cac64078210d3346fea0041c25cfd}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T@{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}}
+\index{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T@{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}]{\setlength{\rightskip}{0pt plus 5cm}final int com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T = -\/1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_ad07cac64078210d3346fea0041c25cfd}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_aba2a7ba030813ba22a618a61511bfd48}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N@{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}}
+\index{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N@{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}final boolean com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_aba2a7ba030813ba22a618a61511bfd48}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a5e7e40b503507bedbc7808a473ce48f0}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Actual\-Backlight@{m\-Actual\-Backlight}}
+\index{m\-Actual\-Backlight@{m\-Actual\-Backlight}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Actual\-Backlight}]{\setlength{\rightskip}{0pt plus 5cm}int com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Actual\-Backlight = {\bf I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a5e7e40b503507bedbc7808a473ce48f0}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a9d38be17b604c637bc9430f55e2f4ba0}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Actual\-On@{m\-Actual\-On}}
+\index{m\-Actual\-On@{m\-Actual\-On}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Actual\-On}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Actual\-On = {\bf I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a9d38be17b604c637bc9430f55e2f4ba0}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a76910dedf1065b2880753feecd8c3a09}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Change\-In\-Progress@{m\-Change\-In\-Progress}}
+\index{m\-Change\-In\-Progress@{m\-Change\-In\-Progress}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Change\-In\-Progress}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Change\-In\-Progress\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a76910dedf1065b2880753feecd8c3a09}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a0705a954e9dc796e3db0e162ed4b46ca}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Current\-Button\-Value@{m\-Current\-Button\-Value}}
+\index{m\-Current\-Button\-Value@{m\-Current\-Button\-Value}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Current\-Button\-Value}]{\setlength{\rightskip}{0pt plus 5cm}int com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Current\-Button\-Value = {\bf I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a0705a954e9dc796e3db0e162ed4b46ca}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a7be03ac416924266902cd7e001eb7044}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Lock@{m\-Lock}}
+\index{m\-Lock@{m\-Lock}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Lock}]{\setlength{\rightskip}{0pt plus 5cm}final Object com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Lock = new Object()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a7be03ac416924266902cd7e001eb7044}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a382abc794aafa7743f1c2cff16f6a4ab}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Pending\-Backlight@{m\-Pending\-Backlight}}
+\index{m\-Pending\-Backlight@{m\-Pending\-Backlight}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Pending\-Backlight}]{\setlength{\rightskip}{0pt plus 5cm}int com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Pending\-Backlight = {\bf I\-N\-I\-T\-I\-A\-L\-\_\-\-B\-A\-C\-K\-L\-I\-G\-H\-T}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a382abc794aafa7743f1c2cff16f6a4ab}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a5a7f23332c6937ca135a564157892816}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Pending\-On@{m\-Pending\-On}}
+\index{m\-Pending\-On@{m\-Pending\-On}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Pending\-On}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Pending\-On = {\bf I\-N\-I\-T\-I\-A\-L\-\_\-\-S\-C\-R\-E\-E\-N\-\_\-\-O\-N}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_a5a7f23332c6937ca135a564157892816}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_af6dd80943227de9a16937b8d8b6f1ad4}{\index{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}!m\-Task@{m\-Task}}
+\index{m\-Task@{m\-Task}!com::android::server::power::DisplayPowerState::PhotonicModulator@{com\-::android\-::server\-::power\-::\-Display\-Power\-State\-::\-Photonic\-Modulator}}
+\subsubsection[{m\-Task}]{\setlength{\rightskip}{0pt plus 5cm}final Runnable com.\-android.\-server.\-power.\-Display\-Power\-State.\-Photonic\-Modulator.\-m\-Task\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator_af6dd80943227de9a16937b8d8b6f1ad4}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{DisplayPowerState_8java}{Display\-Power\-State.\-java}\end{DoxyCompactItemize}

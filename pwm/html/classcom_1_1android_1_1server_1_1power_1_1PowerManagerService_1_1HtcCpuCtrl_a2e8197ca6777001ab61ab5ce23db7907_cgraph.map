@@ -1,0 +1,6 @@
+<map id="com.android.server.power.PowerManagerService.HtcCpuCtrl.toString" name="com.android.server.power.PowerManagerService.HtcCpuCtrl.toString">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a56baa8905bc9d8a055b65b8a4f86a4fc" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.get\lLockLevelString" alt="" coords="300,5,545,69"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a095dd0137eb8fdb5155505205400d0c9" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.dump\lLevelIfExist" alt="" coords="293,93,552,157"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a71169bb582d98e91065617e46be5dd03" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.cpu\lFreqLevelToString" alt="" coords="600,49,848,113"/>
+<area shape="rect" id="node9" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a1e5118d0b28e0b0bc81dbb3247b9c567" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.cpu\lNumLevelToString" alt="" coords="600,137,848,201"/>
+</map>

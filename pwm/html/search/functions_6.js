@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['getcurrentbrightness',['getCurrentBrightness',['../classcom_1_1android_1_1server_1_1power_1_1DisplayPowerController_1_1DPCInternalAPI.html#a0abf8f35bf3eaf286550fb4c4b8fa7bc',1,'com::android::server::power::DisplayPowerController::DPCInternalAPI']]],
+  ['getdesiredscreenpowerstatelocked',['getDesiredScreenPowerStateLocked',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ad205b7f8dc4db8fc5c724cd257e6288b',1,'com::android::server::power::PowerManagerService']]],
+  ['getlevel',['getLevel',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#ada5ade08fc1bbc694eb3fbad8238102c',1,'com::android::server::power::PowerManagerService::HtcCpuCtrl']]],
+  ['getlightsensortablevalues',['getLightSensorTableValues',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a550a64aebe82e8c26233a2c334111aa2',1,'com::android::server::power::PowerManagerService']]],
+  ['getlockflagsstring',['getLockFlagsString',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock.html#a78d8c1ba4c0c04250f0171c2689e04ba',1,'com::android::server::power::PowerManagerService::WakeLock']]],
+  ['getlocklevelstring',['getLockLevelString',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock.html#ad5ab92ed7351ac510403884add98d40e',1,'com.android.server.power.PowerManagerService.WakeLock.getLockLevelString()'],['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a56baa8905bc9d8a055b65b8a4f86a4fc',1,'com.android.server.power.PowerManagerService.HtcCpuCtrl.getLockLevelString()']]],
+  ['getnativesetautosuspenddone',['getNativeSetAutoSuspendDone',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a9a132717d1b3e6ab90aa5383229db1bf',1,'com::android::server::power::PowerManagerService']]],
+  ['getproximitysensoractive',['getProximitySensorActive',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#adf51be5faae092d09d844c34f57e2a50',1,'com::android::server::power::PowerManagerService']]],
+  ['getscreendimdurationlocked',['getScreenDimDurationLocked',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ad35714067b7f29786db9f25e6b897b29',1,'com::android::server::power::PowerManagerService']]],
+  ['getscreenofftimeoutlocked',['getScreenOffTimeoutLocked',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a944ee9e7d3d9808b2f65ea57b5e0a287',1,'com::android::server::power::PowerManagerService']]],
+  ['gettargetbrightness',['getTargetBrightness',['../classcom_1_1android_1_1server_1_1power_1_1DisplayPowerController_1_1DPCInternalAPI.html#a4befd48a2deb6b135f55023cc34af003',1,'com::android::server::power::DisplayPowerController::DPCInternalAPI']]],
+  ['gotosleep',['goToSleep',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a988e232d9be4d9b76c69a386a9b2bddd',1,'com::android::server::power::PowerManagerService']]],
+  ['gotosleepforshutdown',['goToSleepForShutdown',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#acbf0e30e8cf85ab34974082d98321858',1,'com::android::server::power::PowerManagerService']]],
+  ['gotosleepfromnative',['goToSleepFromNative',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a1afff6c2ab0caa1d6beadc1cef259eba',1,'com::android::server::power::PowerManagerService']]],
+  ['gotosleepinternal',['goToSleepInternal',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a8ad81dd921c4a6f30bc5b23c12e9c8a9',1,'com::android::server::power::PowerManagerService']]],
+  ['gotosleepnoupdatelocked',['goToSleepNoUpdateLocked',['../classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a1fa18c03e778a5a28bb8cb3a04bccec4',1,'com::android::server::power::PowerManagerService']]]
+];

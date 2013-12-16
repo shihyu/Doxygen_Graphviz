@@ -1,0 +1,8 @@
+<map id="com.android.server.power.PowerManagerService.updateDisplayPowerStateLocked" name="com.android.server.power.PowerManagerService.updateDisplayPowerStateLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ad205b7f8dc4db8fc5c724cd257e6288b" title="com.android.server.power.\lPowerManagerService.getDesired\lScreenPowerStateLocked" alt="" coords="324,5,543,69"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a913f12c5b2d091157b208fdefaac32fa" title="com.android.server.power.\lPowerManagerService.nativeSetPowerState" alt="" coords="293,93,573,139"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a2d8f9a25dbd9a8a827bccbe58c3f0831" title="com.android.server.power.\lPowerManagerService.isValidBrightness" alt="" coords="304,162,563,209"/>
+<area shape="rect" id="node9" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a3e2e98dad235b0619922d39984863264" title="com.android.server.power.\lPowerManagerService.isValidAuto\lBrightnessAdjustment" alt="" coords="323,232,544,296"/>
+<area shape="rect" id="node11" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a98db68dcd7bf77f8158451fc5478eb80" title="com.android.server.power.\lPowerManagerService.shouldUseProximity\lSensorLocked" alt="" coords="296,320,571,384"/>
+<area shape="rect" id="node13" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a63ed2a816b682eca0f3d24650fe7dbd8" title="com.android.server.power.\lPowerManagerService.wakefulness\lToString" alt="" coords="319,408,548,472"/>
+</map>

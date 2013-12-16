@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.BootCompletedReceiver.onReceive" name="com.android.server.power.PowerManagerService.BootCompletedReceiver.onReceive">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#aab98754f2ccc27266bac3bd02284719a" title="com.android.server.power.\lPowerManagerService.startWatching\lForOOBEStatusFinished" alt="" coords="303,5,540,69"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a193a63ec59546efe1a181f1edb99462c" title="com.android.server.power.\lPowerManagerService.startWatching\lForBootAnimationFinished" alt="" coords="303,93,540,157"/>
+</map>

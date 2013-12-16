@@ -1,0 +1,8 @@
+<map id="com.android.server.power.PowerManagerService.updateWakefulnessLocked" name="com.android.server.power.PowerManagerService.updateWakefulnessLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a8643470d860e5f6411a0dc710aa7e86d" title="com.android.server.power.\lPowerManagerService.isItBedTime\lYetLocked" alt="" coords="331,5,557,69"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a39ea6ad032c7a47ab15b3c9f776e04bf" title="com.android.server.power.\lPowerManagerService.shouldNapAt\lBedTimeLocked" alt="" coords="328,93,560,157"/>
+<area shape="rect" id="node9" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#aebe3966fda8e017f14b84af642ed9469" title="com.android.server.power.\lPowerManagerService.napNoUpdate\lLocked" alt="" coords="325,181,563,245"/>
+<area shape="rect" id="node11" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a1fa18c03e778a5a28bb8cb3a04bccec4" title="com.android.server.power.\lPowerManagerService.goToSleepNo\lUpdateLocked" alt="" coords="327,269,561,333"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a279565ba81245941643a0136a518dbef" title="com.android.server.power.\lPowerManagerService.isBeingKept\lAwakeLocked" alt="" coords="613,5,840,69"/>
+<area shape="rect" id="node13" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a2237c43016fe6e761e0ac2136d3e8976" title="com.android.server.power.\lPowerManagerService.sendPending\lNotificationsLocked" alt="" coords="611,269,843,333"/>
+</map>

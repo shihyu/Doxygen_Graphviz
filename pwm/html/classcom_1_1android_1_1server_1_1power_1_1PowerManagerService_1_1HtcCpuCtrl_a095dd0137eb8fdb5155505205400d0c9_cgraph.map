@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.HtcCpuCtrl.dumpLevelIfExist" name="com.android.server.power.PowerManagerService.HtcCpuCtrl.dumpLevelIfExist">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a71169bb582d98e91065617e46be5dd03" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.cpu\lFreqLevelToString" alt="" coords="312,5,560,69"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a1e5118d0b28e0b0bc81dbb3247b9c567" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.cpu\lNumLevelToString" alt="" coords="312,93,560,157"/>
+</map>

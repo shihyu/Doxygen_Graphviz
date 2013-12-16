@@ -2,3 +2,31 @@
 INPUT
 RECURSIVE = YES
 最後執行 doxygen myconfig 即可。
+
+
+
+Romanegloo: the Flying Torch
+for Today
+Generating a callgraph by using Doxygen and Graphviz
+leave a comment »
+
+One of the questions of my OS assignment asks me to draw a callgraph. It can be one-time task and I can draw it on a piece of paper. Soon I noticed that the one that I want to draw is much bigger in size that I can simply draw on a paper. Also I wanted to draw it in ‘fancier’ way. I search the Internet, and I found this is one of the choices.
+
+The following is what I have done.
+
+Install Doxygen and Graphviz. In my case, I only had to install Graphviz (and I am using linux fedora)
+sudo yum install graphviz
+Go to the folder where your source files are located.
+doxygen -g
+This will generate a configuration file, named ‘Doxyfile’.
+Modify Doxyfile if necessary. To generate a callgraph, you need to set up appropriately. I changed the following properties. 
+HAVE_DOT               = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+CALL_GRAPH             = YES
+Then you run doxygen:
+doxygen Doxyfile
+New folder ‘html’ and ‘latex’ will be generated, and you can find all the documentations in the folders.
+
+http://romanegloo.wordpress.com/2012/03/29/generating-a-callgraph-by-using-doxygen-and-graphviz-13/

@@ -1,0 +1,12 @@
+<map id="com.android.server.power.PowerManagerService" name="com.android.server.power.PowerManagerService">
+<area shape="rect" id="node57" href="$classcom_1_1android_1_1server_1_1power_1_1Notifier_1_1NotifierHandler.html" title="com.android.server.power.\lNotifier.NotifierHandler" alt="" coords="123,83,299,130"/>
+<area shape="rect" id="node71" href="$classcom_1_1android_1_1server_1_1power_1_1DisplayPowerController_1_1DisplayControllerHandler.html" title="com.android.server.power.\lDisplayPowerController.Display\lControllerHandler" alt="" coords="343,2613,548,2677"/>
+<area shape="rect" id="node101" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1PowerManagerHandler.html" title="com.android.server.power.\lPowerManagerService.PowerManager\lHandler" alt="" coords="324,1469,567,1533"/>
+<area shape="rect" id="node20" href="$classcom_1_1android_1_1server_1_1power_1_1DisplayPowerState_1_1PhotonicModulator.html" title="com.android.server.power.\lDisplayPowerState.PhotonicModulator" alt="" coords="612,2074,857,2121"/>
+<area shape="rect" id="node122" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1DisplayBlankerImpl.html" title="com.android.server.power.\lPowerManagerService.DisplayBlankerImpl" alt="" coords="600,1835,869,1882"/>
+<area shape="rect" id="node38" href="$classcom_1_1android_1_1server_1_1power_1_1DisplayPowerController_1_1DPCInternalAPI.html" title="com.android.server.power.\lDisplayPowerController.DPCInternalAPI" alt="" coords="1097,2110,1353,2157"/>
+<area shape="rect" id="node86" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1ScreenOnBlockerImpl.html" title="com.android.server.power.\lPowerManagerService.ScreenOnBlockerImpl" alt="" coords="593,113,876,159"/>
+<area shape="rect" id="node81" href="$interfacecom_1_1android_1_1server_1_1power_1_1DisplayPowerController_1_1Callbacks.html" title="com.android.server.power.\lDisplayPowerController.Callbacks" alt="" coords="1115,2741,1336,2787"/>
+<area shape="rect" id="node110" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1SettingsObserver.html" title="com.android.server.power.\lPowerManagerService.SettingsObserver" alt="" coords="605,902,864,949"/>
+<area shape="rect" id="node114" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1PMSInternalAPI.html" title="com.android.server.power.\lPowerManagerService.PMSInternalAPI" alt="" coords="609,1189,860,1235"/>
+</map>

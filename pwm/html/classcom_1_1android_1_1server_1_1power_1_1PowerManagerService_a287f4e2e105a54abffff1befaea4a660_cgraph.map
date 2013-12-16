@@ -1,0 +1,6 @@
+<map id="com.android.server.power.PowerManagerService.updateHtcCpuCtrlWorkSourceInternal" name="com.android.server.power.PowerManagerService.updateHtcCpuCtrlWorkSourceInternal">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a7b7f62155456138e4ffd35c9fcaf3a79" title="com.android.server.power.\lPowerManagerService.findHtcCpu\lCtrlIndexLocked" alt="" coords="309,5,531,69"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#a31b1cc24bd6f3624ad1a71eafe2fad64" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.has\lSameWorkSource" alt="" coords="296,93,544,157"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a8fdcc3347a886221347987941e3ffba2" title="com.android.server.power.\lPowerManagerService.notifyHtcCpu\lCtrlReleasedLocked" alt="" coords="303,181,537,245"/>
+<area shape="rect" id="node9" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a5768793a3d865057caf3ca310a0135e0" title="com.android.server.power.\lPowerManagerService.notifyHtcCpu\lCtrlAcquiredLocked" alt="" coords="303,269,537,333"/>
+</map>

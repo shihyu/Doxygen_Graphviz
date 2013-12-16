@@ -1,0 +1,312 @@
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread}{\section{com.\-android.\-server.\-power.\-Shutdown\-Thread Class Reference}
+\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread}\index{com.\-android.\-server.\-power.\-Shutdown\-Thread@{com.\-android.\-server.\-power.\-Shutdown\-Thread}}
+}
+
+
+Inheritance diagram for com.\-android.\-server.\-power.\-Shutdown\-Thread\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\-android.\-server.\-power.\-Shutdown\-Thread\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_1_1CloseDialogReceiver}{Close\-Dialog\-Receiver}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad9969aac72e7f49f7b08e17d6b59005a}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a63768a95fa2cfd26dd0eea8260dbdc05}{shutdown} (final Context context, boolean confirm)
+\item 
+static void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_abd09f9232c1dd018495d628ef3f5c30d}{reboot} (final Context context, String reason, boolean confirm)
+\item 
+static void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a7dd8f5ff965bbfd5c685ec4212841d6c}{reboot\-Safe\-Mode} (final Context context, boolean confirm)
+\item 
+static void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a60e6c04cfc401c44b85e6e7ea4d4f453}{reboot\-Or\-Shutdown} (boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_abd09f9232c1dd018495d628ef3f5c30d}{reboot}, String reason)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a0725ea116927cc0e8dbb1e9c717159a7}{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y} = \char`\"{}sys.\-shutdown.\-requested\char`\"{}
+\item 
+static final String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a2992de9d96ecc0f7a6879c276cb06e07}{R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y} = \char`\"{}persist.\-sys.\-safemode\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_af4107d52a5c2dbb49f6a55a8b576a815}{Shutdown\-Thread} ()
+\item 
+void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aaf9b8e8c862e7616425c96d038ca4bfc}{shutdown\-Radios} (int timeout)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a856141299b5f4c13c488694d605a732d}{begin\-Shutdown\-Sequence} (Context context)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Object \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a54e622b02af832292d5cbe23bfbc6e53}{m\-Action\-Done\-Sync} = new Object()
+\item 
+boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ace4b71fc19e14df65e235dbadb1891c7}{m\-Action\-Done}
+\item 
+Context \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ac0b2ed9fe29f53d29509bfa5a7890a24}{m\-Context}
+\item 
+Power\-Manager \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_af6280613eb53e0d6cc42d5329144c2c3}{m\-Power\-Manager}
+\item 
+Power\-Manager.\-Wake\-Lock \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a82b5c2529753eb1e63d0827e1757de8f}{m\-Cpu\-Wake\-Lock}
+\item 
+Power\-Manager.\-Wake\-Lock \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ae22b87748d12c25b168d7bcf44edbcd4}{m\-Screen\-Wake\-Lock}
+\item 
+Handler \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a165f4b311ee1eebff6213f5f84820b31}{m\-Handler}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a1ab8709099d9b2c4801f53c83fec1b62}{T\-A\-G} = \char`\"{}Shutdown\-Thread\char`\"{}
+\item 
+static final int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a6d2e9f39fe896054b1039c10f8807f46}{P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C} = 500
+\item 
+static final int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a8234e4bba463ba0f804c110bf26230fa}{M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E} = 10$\ast$1000
+\item 
+static final int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aeb0cc4ef0050f1234bf21dc3303d1fbd}{M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E} = 20$\ast$1000
+\item 
+static final int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad778e09c18def65b74e379fc02f7f759}{M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E} = 12$\ast$1000
+\item 
+static final int \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a69722120b27aecc2793edcf056ce05f0}{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S} = 500
+\item 
+static Object \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a344f93b812c042e19cc4311ba5cf225c}{s\-Is\-Started\-Guard} = new Object()
+\item 
+static boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a36768af512dd5feedfa2f3865ed93aab}{s\-Is\-Started} = false
+\item 
+static boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a839fbc9d1b2f281fbfe8b7d7b48b5dec}{m\-Reboot}
+\item 
+static boolean \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ae7e6a7618312de5f14ad445a22cea34a}{m\-Reboot\-Safe\-Mode}
+\item 
+static String \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a3ffbd225605d2f613ead357334088772}{m\-Reboot\-Reason}
+\item 
+static final \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread}{Shutdown\-Thread} \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aed796d70186e3e40dc44db84ba585e8f}{s\-Instance} = new \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread}{Shutdown\-Thread}()
+\item 
+static Alert\-Dialog \hyperlink{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ade9a17e263694492d29c72670aab66f5}{s\-Confirm\-Dialog}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_af4107d52a5c2dbb49f6a55a8b576a815}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!Shutdown\-Thread@{Shutdown\-Thread}}
+\index{Shutdown\-Thread@{Shutdown\-Thread}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{Shutdown\-Thread}]{\setlength{\rightskip}{0pt plus 5cm}com.\-android.\-server.\-power.\-Shutdown\-Thread.\-Shutdown\-Thread (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_af4107d52a5c2dbb49f6a55a8b576a815}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a856141299b5f4c13c488694d605a732d}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!begin\-Shutdown\-Sequence@{begin\-Shutdown\-Sequence}}
+\index{begin\-Shutdown\-Sequence@{begin\-Shutdown\-Sequence}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{begin\-Shutdown\-Sequence}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-begin\-Shutdown\-Sequence (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a856141299b5f4c13c488694d605a732d}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_abd09f9232c1dd018495d628ef3f5c30d}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!reboot@{reboot}}
+\index{reboot@{reboot}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{reboot}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-reboot (
+\begin{DoxyParamCaption}
+\item[{final Context}]{context, }
+\item[{String}]{reason, }
+\item[{boolean}]{confirm}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_abd09f9232c1dd018495d628ef3f5c30d}
+Request a clean shutdown, waiting for subsystems to clean up their state etc. Must be called from a Looper thread in which its U\-I is shown.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Context used to display the shutdown progress dialog. \\
+\hline
+{\em reason} & code to pass to the kernel (e.\-g. \char`\"{}recovery\char`\"{}), or null. \\
+\hline
+{\em confirm} & true if user confirmation is needed before shutting down. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a60e6c04cfc401c44b85e6e7ea4d4f453}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!reboot\-Or\-Shutdown@{reboot\-Or\-Shutdown}}
+\index{reboot\-Or\-Shutdown@{reboot\-Or\-Shutdown}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{reboot\-Or\-Shutdown}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-reboot\-Or\-Shutdown (
+\begin{DoxyParamCaption}
+\item[{boolean}]{reboot, }
+\item[{String}]{reason}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a60e6c04cfc401c44b85e6e7ea4d4f453}
+Do not call this directly. Use \hyperlink{}{reboot(\-Context, String, boolean)} or \hyperlink{}{shutdown(\-Context, boolean)} instead.
+
+
+\begin{DoxyParams}{Parameters}
+{\em reboot} & true to reboot or false to shutdown \\
+\hline
+{\em reason} & reason for reboot \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a7dd8f5ff965bbfd5c685ec4212841d6c}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!reboot\-Safe\-Mode@{reboot\-Safe\-Mode}}
+\index{reboot\-Safe\-Mode@{reboot\-Safe\-Mode}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{reboot\-Safe\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-reboot\-Safe\-Mode (
+\begin{DoxyParamCaption}
+\item[{final Context}]{context, }
+\item[{boolean}]{confirm}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a7dd8f5ff965bbfd5c685ec4212841d6c}
+Request a reboot into safe mode. Must be called from a Looper thread in which its U\-I is shown.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Context used to display the shutdown progress dialog. \\
+\hline
+{\em confirm} & true if user confirmation is needed before shutting down. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad9969aac72e7f49f7b08e17d6b59005a}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!run@{run}}
+\index{run@{run}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad9969aac72e7f49f7b08e17d6b59005a}
+Makes sure we handle the shutdown gracefully. Shuts off power regardless of radio and bluetooth state if the alloted time has passed. 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad9969aac72e7f49f7b08e17d6b59005a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a63768a95fa2cfd26dd0eea8260dbdc05}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{shutdown}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-shutdown (
+\begin{DoxyParamCaption}
+\item[{final Context}]{context, }
+\item[{boolean}]{confirm}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a63768a95fa2cfd26dd0eea8260dbdc05}
+Request a clean shutdown, waiting for subsystems to clean up their state etc. Must be called from a Looper thread in which its U\-I is shown.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Context used to display the shutdown progress dialog. \\
+\hline
+{\em confirm} & true if user confirmation is needed before shutting down. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aaf9b8e8c862e7616425c96d038ca4bfc}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!shutdown\-Radios@{shutdown\-Radios}}
+\index{shutdown\-Radios@{shutdown\-Radios}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{shutdown\-Radios}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-server.\-power.\-Shutdown\-Thread.\-shutdown\-Radios (
+\begin{DoxyParamCaption}
+\item[{int}]{timeout}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aaf9b8e8c862e7616425c96d038ca4bfc}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aaf9b8e8c862e7616425c96d038ca4bfc_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ace4b71fc19e14df65e235dbadb1891c7}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Action\-Done@{m\-Action\-Done}}
+\index{m\-Action\-Done@{m\-Action\-Done}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Action\-Done}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Action\-Done\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ace4b71fc19e14df65e235dbadb1891c7}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a54e622b02af832292d5cbe23bfbc6e53}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Action\-Done\-Sync@{m\-Action\-Done\-Sync}}
+\index{m\-Action\-Done\-Sync@{m\-Action\-Done\-Sync}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Action\-Done\-Sync}]{\setlength{\rightskip}{0pt plus 5cm}final Object com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Action\-Done\-Sync = new Object()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a54e622b02af832292d5cbe23bfbc6e53}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a8234e4bba463ba0f804c110bf26230fa}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E@{M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E}}
+\index{M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E@{M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int com.\-android.\-server.\-power.\-Shutdown\-Thread.\-M\-A\-X\-\_\-\-B\-R\-O\-A\-D\-C\-A\-S\-T\-\_\-\-T\-I\-M\-E = 10$\ast$1000\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a8234e4bba463ba0f804c110bf26230fa}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad778e09c18def65b74e379fc02f7f759}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E@{M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E}}
+\index{M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E@{M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int com.\-android.\-server.\-power.\-Shutdown\-Thread.\-M\-A\-X\-\_\-\-R\-A\-D\-I\-O\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E = 12$\ast$1000\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ad778e09c18def65b74e379fc02f7f759}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aeb0cc4ef0050f1234bf21dc3303d1fbd}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E@{M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E}}
+\index{M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E@{M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int com.\-android.\-server.\-power.\-Shutdown\-Thread.\-M\-A\-X\-\_\-\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-W\-A\-I\-T\-\_\-\-T\-I\-M\-E = 20$\ast$1000\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aeb0cc4ef0050f1234bf21dc3303d1fbd}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ac0b2ed9fe29f53d29509bfa5a7890a24}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Context@{m\-Context}}
+\index{m\-Context@{m\-Context}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Context}]{\setlength{\rightskip}{0pt plus 5cm}Context com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Context\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ac0b2ed9fe29f53d29509bfa5a7890a24}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a82b5c2529753eb1e63d0827e1757de8f}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Cpu\-Wake\-Lock@{m\-Cpu\-Wake\-Lock}}
+\index{m\-Cpu\-Wake\-Lock@{m\-Cpu\-Wake\-Lock}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Cpu\-Wake\-Lock}]{\setlength{\rightskip}{0pt plus 5cm}Power\-Manager.\-Wake\-Lock com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Cpu\-Wake\-Lock\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a82b5c2529753eb1e63d0827e1757de8f}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a165f4b311ee1eebff6213f5f84820b31}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Handler@{m\-Handler}}
+\index{m\-Handler@{m\-Handler}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Handler}]{\setlength{\rightskip}{0pt plus 5cm}Handler com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Handler\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a165f4b311ee1eebff6213f5f84820b31}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_af6280613eb53e0d6cc42d5329144c2c3}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Power\-Manager@{m\-Power\-Manager}}
+\index{m\-Power\-Manager@{m\-Power\-Manager}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Power\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Power\-Manager com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Power\-Manager\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_af6280613eb53e0d6cc42d5329144c2c3}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a839fbc9d1b2f281fbfe8b7d7b48b5dec}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Reboot@{m\-Reboot}}
+\index{m\-Reboot@{m\-Reboot}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Reboot}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Reboot\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a839fbc9d1b2f281fbfe8b7d7b48b5dec}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a3ffbd225605d2f613ead357334088772}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Reboot\-Reason@{m\-Reboot\-Reason}}
+\index{m\-Reboot\-Reason@{m\-Reboot\-Reason}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Reboot\-Reason}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Reboot\-Reason\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a3ffbd225605d2f613ead357334088772}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ae7e6a7618312de5f14ad445a22cea34a}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Reboot\-Safe\-Mode@{m\-Reboot\-Safe\-Mode}}
+\index{m\-Reboot\-Safe\-Mode@{m\-Reboot\-Safe\-Mode}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Reboot\-Safe\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Reboot\-Safe\-Mode\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ae7e6a7618312de5f14ad445a22cea34a}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ae22b87748d12c25b168d7bcf44edbcd4}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!m\-Screen\-Wake\-Lock@{m\-Screen\-Wake\-Lock}}
+\index{m\-Screen\-Wake\-Lock@{m\-Screen\-Wake\-Lock}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{m\-Screen\-Wake\-Lock}]{\setlength{\rightskip}{0pt plus 5cm}Power\-Manager.\-Wake\-Lock com.\-android.\-server.\-power.\-Shutdown\-Thread.\-m\-Screen\-Wake\-Lock\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ae22b87748d12c25b168d7bcf44edbcd4}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a6d2e9f39fe896054b1039c10f8807f46}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C@{P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C}}
+\index{P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C@{P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C}]{\setlength{\rightskip}{0pt plus 5cm}final int com.\-android.\-server.\-power.\-Shutdown\-Thread.\-P\-H\-O\-N\-E\-\_\-\-S\-T\-A\-T\-E\-\_\-\-P\-O\-L\-L\-\_\-\-S\-L\-E\-E\-P\-\_\-\-M\-S\-E\-C = 500\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a6d2e9f39fe896054b1039c10f8807f46}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a2992de9d96ecc0f7a6879c276cb06e07}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y@{R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y}}
+\index{R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y@{R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\-android.\-server.\-power.\-Shutdown\-Thread.\-R\-E\-B\-O\-O\-T\-\_\-\-S\-A\-F\-E\-M\-O\-D\-E\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y = \char`\"{}persist.\-sys.\-safemode\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a2992de9d96ecc0f7a6879c276cb06e07}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ade9a17e263694492d29c72670aab66f5}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!s\-Confirm\-Dialog@{s\-Confirm\-Dialog}}
+\index{s\-Confirm\-Dialog@{s\-Confirm\-Dialog}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{s\-Confirm\-Dialog}]{\setlength{\rightskip}{0pt plus 5cm}Alert\-Dialog com.\-android.\-server.\-power.\-Shutdown\-Thread.\-s\-Confirm\-Dialog\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_ade9a17e263694492d29c72670aab66f5}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a0725ea116927cc0e8dbb1e9c717159a7}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y@{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y}}
+\index{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y@{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\-android.\-server.\-power.\-Shutdown\-Thread.\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-A\-C\-T\-I\-O\-N\-\_\-\-P\-R\-O\-P\-E\-R\-T\-Y = \char`\"{}sys.\-shutdown.\-requested\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a0725ea116927cc0e8dbb1e9c717159a7}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a69722120b27aecc2793edcf056ce05f0}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S@{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S}}
+\index{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S@{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S}]{\setlength{\rightskip}{0pt plus 5cm}final int com.\-android.\-server.\-power.\-Shutdown\-Thread.\-S\-H\-U\-T\-D\-O\-W\-N\-\_\-\-V\-I\-B\-R\-A\-T\-E\-\_\-\-M\-S = 500\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a69722120b27aecc2793edcf056ce05f0}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aed796d70186e3e40dc44db84ba585e8f}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!s\-Instance@{s\-Instance}}
+\index{s\-Instance@{s\-Instance}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{s\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}final {\bf Shutdown\-Thread} com.\-android.\-server.\-power.\-Shutdown\-Thread.\-s\-Instance = new {\bf Shutdown\-Thread}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_aed796d70186e3e40dc44db84ba585e8f}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a36768af512dd5feedfa2f3865ed93aab}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!s\-Is\-Started@{s\-Is\-Started}}
+\index{s\-Is\-Started@{s\-Is\-Started}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{s\-Is\-Started}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\-android.\-server.\-power.\-Shutdown\-Thread.\-s\-Is\-Started = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a36768af512dd5feedfa2f3865ed93aab}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a344f93b812c042e19cc4311ba5cf225c}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!s\-Is\-Started\-Guard@{s\-Is\-Started\-Guard}}
+\index{s\-Is\-Started\-Guard@{s\-Is\-Started\-Guard}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{s\-Is\-Started\-Guard}]{\setlength{\rightskip}{0pt plus 5cm}Object com.\-android.\-server.\-power.\-Shutdown\-Thread.\-s\-Is\-Started\-Guard = new Object()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a344f93b812c042e19cc4311ba5cf225c}
+\hypertarget{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a1ab8709099d9b2c4801f53c83fec1b62}{\index{com\-::android\-::server\-::power\-::\-Shutdown\-Thread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}!T\-A\-G@{T\-A\-G}}
+\index{T\-A\-G@{T\-A\-G}!com::android::server::power::ShutdownThread@{com\-::android\-::server\-::power\-::\-Shutdown\-Thread}}
+\subsubsection[{T\-A\-G}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\-android.\-server.\-power.\-Shutdown\-Thread.\-T\-A\-G = \char`\"{}Shutdown\-Thread\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1android_1_1server_1_1power_1_1ShutdownThread_a1ab8709099d9b2c4801f53c83fec1b62}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ShutdownThread_8java}{Shutdown\-Thread.\-java}\end{DoxyCompactItemize}

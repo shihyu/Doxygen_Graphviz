@@ -1,0 +1,7 @@
+<map id="com.android.server.power.PowerManagerService.updateHtcCpuCtrlLevel" name="com.android.server.power.PowerManagerService.updateHtcCpuCtrlLevel">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1HtcCpuCtrl.html#ada5ade08fc1bbc694eb3fbad8238102c" title="com.android.server.power.\lPowerManagerService.HtcCpuCtrl.getLevel" alt="" coords="297,5,572,51"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ae37459c0fe27439b31beab042babe2a8" title="com.android.server.power.\lPowerManagerService.nativeAcquire\lCpuFreqMinWakeLock" alt="" coords="317,75,552,139"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#aff7d1ac8ab4f51048b8b627a943ec1ba" title="com.android.server.power.\lPowerManagerService.nativeAcquire\lCpuNumMinWakeLock" alt="" coords="317,163,552,227"/>
+<area shape="rect" id="node9" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ac1e5e58d120ca1702b1857e0510565b9" title="com.android.server.power.\lPowerManagerService.nativeAcquire\lCpuFreqMaxWakeLock" alt="" coords="317,251,552,315"/>
+<area shape="rect" id="node11" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a596da73b038292457b3789e2dc185d03" title="com.android.server.power.\lPowerManagerService.nativeAcquire\lCpuNumMaxWakeLock" alt="" coords="317,339,552,403"/>
+</map>
