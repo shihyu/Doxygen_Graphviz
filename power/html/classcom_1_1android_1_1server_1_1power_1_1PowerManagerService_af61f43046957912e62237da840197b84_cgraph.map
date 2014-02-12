@@ -1,0 +1,5 @@
+<map id="com.android.server.power.PowerManagerService.PowerManagerService" name="com.android.server.power.PowerManagerService.PowerManagerService">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ab3b092c1dc0fafc3a799aa63190236c4" title="com.android.server.power.\lPowerManagerService.createSuspend\lBlockerLocked" alt="" coords="315,5,557,81"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a6ead732c63f10b506478db164c4e08b3" title="com.android.server.power.\lPowerManagerService.nativeInit" alt="" coords="332,103,540,158"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a913f12c5b2d091157b208fdefaac32fa" title="com.android.server.power.\lPowerManagerService.nativeSetPowerState" alt="" coords="297,181,575,235"/>
+</map>

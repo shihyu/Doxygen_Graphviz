@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.goToSleepNoUpdateLocked" name="com.android.server.power.PowerManagerService.goToSleepNoUpdateLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a131093b0ec8c330975a3894caa110dcb" title="com.android.server.power.\lPowerManagerService.clearTurnOn\lScreenOnceFlag" alt="" coords="291,5,517,81"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a2237c43016fe6e761e0ac2136d3e8976" title="com.android.server.power.\lPowerManagerService.sendPending\lNotificationsLocked" alt="" coords="288,103,520,179"/>
+</map>

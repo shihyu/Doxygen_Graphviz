@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.getDesiredScreenPowerStateLocked" name="com.android.server.power.PowerManagerService.getDesiredScreenPowerStateLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a64ca61cfaabd82288d598a7d4de6f565" title="com.android.server.power.\lPowerManagerService.isMirrorMode\lTurnedOn" alt="" coords="275,5,507,81"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a458a40ac104ef6068ed19c0bd9ae86d4" title="com.android.server.power.\lPowerManagerService.isMiracast\lModeTurnedOn" alt="" coords="283,103,499,179"/>
+</map>

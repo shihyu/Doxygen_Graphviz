@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.informEndCall" name="com.android.server.power.PowerManagerService.informEndCall">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a98db68dcd7bf77f8158451fc5478eb80" title="com.android.server.power.\lPowerManagerService.shouldUseProximity\lSensorLocked" alt="" coords="295,5,567,81"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#afda8c5e4764deadd210da39a804a9967" title="com.android.server.power.\lPowerManagerService.needDelayScreen\lOnAfterEndCallLocked" alt="" coords="301,103,560,179"/>
+</map>

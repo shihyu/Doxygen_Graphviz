@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.updateWakeLockWorkSourceFromQueue" name="com.android.server.power.PowerManagerService.updateWakeLockWorkSourceFromQueue">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a23fc9431b15e93a676ed2c9428e44426" title="com.android.server.power.\lPowerManagerService.findWakeLock\lIndexLockedFromQueue" alt="" coords="285,5,523,81"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService_1_1WakeLock.html#aa7c1498475258a26184e6172457987ee" title="com.android.server.power.\lPowerManagerService.WakeLock.has\lSameWorkSource" alt="" coords="283,103,525,179"/>
+</map>

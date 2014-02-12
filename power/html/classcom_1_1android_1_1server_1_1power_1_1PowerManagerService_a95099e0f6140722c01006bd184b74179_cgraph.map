@@ -1,0 +1,8 @@
+<map id="com.android.server.power.PowerManagerService.applyWakeLockFlagsOnAcquireLocked" name="com.android.server.power.PowerManagerService.applyWakeLockFlagsOnAcquireLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a17708d5fc1c813813e949ad97648a2a3" title="com.android.server.power.\lPowerManagerService.isScreenLock" alt="" coords="319,5,553,59"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a525ed22ad9a96568cebe44c82d4c58db" title="com.android.server.power.\lPowerManagerService.isForceScreenOn" alt="" coords="308,82,564,137"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#af285848b233186049c3a69c9c47f6313" title="com.android.server.power.\lPowerManagerService.needTurnOn\lScreenByPowerKey" alt="" coords="323,159,549,235"/>
+<area shape="rect" id="node9" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a69e83f125f27c4e5101b4f6a4053b293" title="com.android.server.power.\lPowerManagerService.wakeUpNoUpdate\lLocked" alt="" coords="305,258,567,334"/>
+<area shape="rect" id="node11" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a2237c43016fe6e761e0ac2136d3e8976" title="com.android.server.power.\lPowerManagerService.sendPending\lNotificationsLocked" alt="" coords="616,209,848,285"/>
+<area shape="rect" id="node13" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a90385ca3318864e1e239e7771f4a4acc" title="com.android.server.power.\lPowerManagerService.userActivity\lNoUpdateLocked" alt="" coords="620,307,844,383"/>
+</map>

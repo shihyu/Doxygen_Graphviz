@@ -1,0 +1,4 @@
+<map id="com.android.server.power.PowerManagerService.applyWakeLockFlagsOnReleaseLocked" name="com.android.server.power.PowerManagerService.applyWakeLockFlagsOnReleaseLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a17708d5fc1c813813e949ad97648a2a3" title="com.android.server.power.\lPowerManagerService.isScreenLock" alt="" coords="305,5,540,59"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a90385ca3318864e1e239e7771f4a4acc" title="com.android.server.power.\lPowerManagerService.userActivity\lNoUpdateLocked" alt="" coords="311,82,535,158"/>
+</map>

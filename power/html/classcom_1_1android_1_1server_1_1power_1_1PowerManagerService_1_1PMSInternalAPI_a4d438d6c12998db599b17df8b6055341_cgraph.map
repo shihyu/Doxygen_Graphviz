@@ -1,0 +1,5 @@
+<map id="com.android.server.power.PowerManagerService.PMSInternalAPI.enableMiracastMode" name="com.android.server.power.PowerManagerService.PMSInternalAPI.enableMiracastMode">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#ab3aea6247314c3f1af52734508329fc4" title="com.android.server.power.\lPowerManagerService.updateUser\lActivityEventLocked" alt="" coords="283,54,507,130"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a64ca61cfaabd82288d598a7d4de6f565" title="com.android.server.power.\lPowerManagerService.isMirrorMode\lTurnedOn" alt="" coords="555,5,787,81"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a458a40ac104ef6068ed19c0bd9ae86d4" title="com.android.server.power.\lPowerManagerService.isMiracast\lModeTurnedOn" alt="" coords="563,103,779,179"/>
+</map>

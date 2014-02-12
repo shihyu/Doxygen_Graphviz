@@ -1,0 +1,5 @@
+<map id="com.android.server.power.PowerManagerService.getScreenOffTimeoutLocked" name="com.android.server.power.PowerManagerService.getScreenOffTimeoutLocked">
+<area shape="rect" id="node3" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#a6b6d93b9189fc73e7e1e3fd8e71238b6" title="com.android.server.power.\lPowerManagerService.adjustHtcScreen\lOffDelay" alt="" coords="303,5,556,81"/>
+<area shape="rect" id="node7" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#acf364d5ddca279d7b91325ef2eace263" title="com.android.server.power.\lPowerManagerService.isMaximumScreen\lOffTimeoutFromDeviceAdminEnforcedLocked" alt="" coords="287,103,572,179"/>
+<area shape="rect" id="node5" href="$classcom_1_1android_1_1server_1_1power_1_1PowerManagerService.html#aaab59c6a09b50f25c3a26fa17c1f238a" title="com.android.server.power.\lPowerManagerService.isDongleMode\lTurnedOn" alt="" coords="621,5,861,81"/>
+</map>
